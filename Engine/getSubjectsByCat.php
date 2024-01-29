@@ -1,0 +1,45 @@
+<?php
+session_start();
+header('Content-Type: application/json; charset=utf-8');
+$code = $_SESSION['inst_code'];
+$token = $_GET['token'];
+$cat = $_GET['cat'];
+$session_token=null;
+
+include 'dbutils.php';
+$conn = OpenCon();
+
+
+if(isset($_SESSION['session_token'])){
+    $session_token = $_SESSION['session_token'];
+}
+
+$grantAccess=false;
+
+if($session_token==$token){
+    $grantAccess= true;		
+}
+
+if($grantAccess){
+    
+    $sql = "SELECT * FROM `SubjectCategory_RefSubject`,RefSubject WHERE RefSubject.sub_id=SubjectCategory_RefSubject.sub_cat_subjects_sub_id AND SubjectCategory_RefSubject.SubjectCategory_sub_cat_id='".$cat."';";
+    mysqli_set_charset( $conn, 'utf8');
+    $result = mysqli_query($conn, $sql) or die("Error in Selecting " . mysqli_error($conn));
+    
+    //create an array
+    $emparray = array();
+    while($row =mysqli_fetch_assoc($result))
+    {
+        
+        $emparray[] = $row;
+        
+    }
+    echo json_encode($emparray);
+    
+    
+    mysqli_close($conn);
+}else {
+    echo "Unauthorize Access";
+}
+?>
+

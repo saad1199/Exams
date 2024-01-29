@@ -1,0 +1,240 @@
+body {
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.wrap {
+    margin-left: 10px;
+    margin-right: 10px;
+   height:255mm;
+}
+
+.wraap {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 62px;
+}
+
+.wraps {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 62px;
+}
+
+.bnk {
+
+    width: 25%;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    margin-bottom: 0%;
+
+}
+
+.copy {
+    border: 2px solid black;
+    width: 90px;
+   text-align: center;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    margin-bottom: 0%;
+
+}
+
+.paid {
+    margin: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+    text-align: left;
+}
+
+.form {
+    margin: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+    width: 50%;
+    text-align: center;
+
+}
+
+.chln {
+    padding-left: 0px;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    margin-bottom: 0%;
+    margin-right: 47px;
+    background-color: black;
+    color: white;
+}
+
+.nbp {
+    border: 2px solid black;
+    border-right: 2px solid black;
+    padding-bottom: 11px;
+    padding-top: 2px;
+    width: 25%;
+    margin-bottom: 0%;
+    text-decoration: underline black;
+    text-underline-position: under;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    ;
+}
+
+.head {
+    width: 100%;
+    border: 2px solid black;
+}
+
+thead tr .rem {
+    border: 2px solid black;
+    width: 423px;
+
+}
+
+thead tr .dep {
+    border: 2px solid black;
+    width: 283px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead tr .sub {
+    width: 52%;
+    text-align: center;
+    margin-right: 2px;
+}
+
+td {
+    border: 2px solid black;
+    padding: 9.5px 14px;
+}
+
+th {
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+    /* 140px * 5 column + 16px scrollbar width */
+    border: 2px solid black;
+}
+
+
+.container tbody td,
+
+.container thead th {
+    width: 130.5px;
+    vertical-align: top;
+
+    padding-left: 3px;
+}
+
+
+thead tr th {
+
+    line-height: 13px;
+    /*text-align: left;*/
+}
+
+thead tr .can {
+    border: 2px solid black;
+    width: 120px;
+    padding-top: 4px;
+
+}
+
+thead tr .des {
+    border: 2px solid black;
+    width: 351px;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-bottom: 7px;
+    padding-left: 8px;
+
+}
+
+thead tr .auth {
+    border: 2px solid black;
+    width: 266px;
+    padding-top: 6px;
+
+}
+
+thead tr .amt {
+    border: 2px solid black;
+    padding-top: 13px;
+
+
+}
+
+thead tr .hoa {
+    border: 2px solid black;
+    padding-top: 13px;
+}
+
+thead tr .ottb {
+    border: 2px solid black;
+    padding-top: 13px;
+
+}
+
+p {
+    text-align: center;
+}
+
+.rs {
+
+    text-align: left;
+    
+}
+
+
+.sgn {
+    text-align: left;
+    line-height: 30px;
+
+}
+
+.footer {
+    margin-top: 0%;
+    padding-top: 0%;
+    border-bottom: 3px solid black;
+}
+
+.sgns {
+    padding-left: 79px;
+    padding-right: 63px;
+
+}
+
+.sign {
+    text-align: center;
+    padding-left: 196px;
+}
+
+.rss {
+
+    text-align: left;
+    padding-left: 252px;
+}
+
+.footers {
+    margin-top: 0%;
+    padding-top: 0%;
+    border-bottom: 3px dotted black;
+  
+    width: 100%;
+}
+
+td {
+    height: 450px;
+}
